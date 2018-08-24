@@ -3,7 +3,7 @@
   "version": "0.0.0-auto",
   "description": "A tool for making text Mongo backups on Git repos Edit",
   "main": "index.js",
-  "bin": "cli.js",
+  "bin": {"mongo-git-backup": "cli.js"},
   "scripts": {
     "test": "node test && npm run lint",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/finom/mongo-git-backup.git"
+    "url": "https://github.com/FEIeree/mongo-git-backup.git"
   },
   "keywords": [
     "mongodb",
